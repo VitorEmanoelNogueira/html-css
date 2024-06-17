@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: android;
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+@font-face{
+    font-family: bebas;
+    src: url('fontes/bebasneue.otf') format('opentype');
+}
+
+
+#principal {
+    background-image: linear-gradient(#70eea9, #2A975A, #1a6039);
+    color: white;
+    display:block;
+    height: 17em;
+    box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.500);
+}
+
+#principal>h1, #principal>p {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font: normal 4em bebas;
+    font-weight: 0;
+    padding: 0.7em 0.7em 0.4em 0.7em;
+}
+
+#principal>p{
+    padding-bottom: 1em;
+    padding-left: 0;
+    width: 28em;
+    margin: auto;
+}
+
+nav>a {
+    font: 1.4em arial;
+    font-style: none;
+    text-decoration: none;
+    color: white;
+    margin: 0em 1em;
+}
+
+body {
+    background-color: #84E1AD;
+    margin: 0;
+}
+ 
+main {
+    background-color: white;
+    width: 69em;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    border-radius: 0em 0em 1em 1em;
+    box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.500);
+}
+
+h2 {
+    font: normal 2.6em android;
+    color: #1a6039;
+    margin: 0.23em;
+    padding-left: 0.5em;
+}
+
+h3 {
+    font: normal 2em android;
+    color: #1a6039;
+    background-image: linear-gradient(to right, #70eea94c, white);
+    padding-left: 0.5em;
+    margin-left: 1em;
+}
+
+p{
+    font-family: Arial;
+    text-indent: 2em;
+    line-height: 1.5em;
+    text-align: justify;
+    font-size: 1.4em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+a{
+    font-weight: 550;
+    color: rgb(59, 111, 84);
+    text-decoration: none;
+}
+
+picture{
+    display:flex;
+    justify-content: center;
+    height: 19.4em;
+}
+
+article{
+    display:flex;
+    justify-content: center;
+    background-color: #1a6039;
+    padding: 2em;
+}
+
+aside{
+    background-color: #C5EBD6;
+    border-radius: 1em;
+    padding-bottom: 1em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    box-shadow: 6px 9px 20px 0px rgba(0, 0, 0, 0.122)
+}
+
+#secao{
+    background-color: #2FA866;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    color: white;
+}
+
+h4{
+    font: normal 1.4em Arial;
+    padding: 0.5em;
+    margin-bottom: 0em;
+}
+
+aside>p{
+    text-indent: 1.5em;
+    padding: 0em;
+    margin: 0.5em;
+}
+
+aside>ul{
+    font-size: 1.4em;
+}
+
+footer{
+    color: white;
+    background-color:#1A5C38;
+    text-align: center;
+    padding: 0.5em;
+    font-family: Arial;
+    margin-top: 1.5em;
+}

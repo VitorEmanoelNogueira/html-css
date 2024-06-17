@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        mark{
+            background-color:limegreen
+        }
+    </style>
+    <title>Formatação de Textos</title>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Négrito/Destque</h2>
+    <p>Neste texto, há um <b>termo em négrito</b> utilizando a tag B (não semântica)</p>
+    <p>Neste texto, há um <strong>termo em négrito </strong>utilizando a tag STRONG (semântica)</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Neste texto, há um <i>termo em itálico</i> utilizando a tag I (não semântica)</p>
+    <p>Neste texto, há um <em>termo em itálico</em> utilizando a tag emphasis - em - (semântica)</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também um <mark>texto marcado</mark></p>
+    <p>E nesse parágrafo também <mark>outro texto marcado</mark></p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Neste parágafo, temos <big>um texto grande </big> (tag big é obsoleta) e <small>um texto pequeno</small> (small não é obsoleta)</p>
+    <h2>Texto deletado</h2>
+    <p>Aqui, temos um <del>texto deletado</del></p>
+    <h2>Texto Inserido</h2>
+    <p>Aqui temos uma<ins> informação inserida</ins>  para dar ênfase e mostrar que foi adicionada depois num parágrafo</p>
+    <p>Existe também o <u>sublinhado</u> com a tag u (não semântica)</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para coisas do tipo x<sup>20</sup>+2</p>
+    <h2>Texto subscrito</h2>
+    <p>Para coisas do tipo H<sub>2</sub>O</p>
+    <h2>Código fonte / Pré-formatação</h2>
+    <p>O comando <code>document.GetElementById('teste')</code> é escrito na linguagem JavaScript</p>
+<pre>
+    <code>
+    num = Int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f"O número {num} é PAR')
+    else:
+        print(f'O número {num} é IMPAR)
+    print('Fim do programa')
+    </code>
+</pre>
+<h2>Citações simples</h2>
+<p>Como diria o pai de um amigo do Guanabara: <q>o computador é um burro muito rápido</q></p>
+<h2>Citações completas</h2>
+<p>Como dito por  Maurício Samy Silva, em seu livro Fundamentos de HTML5 e CSS3:</p>
+<blockquote cite ="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover">
+    CSS é a abreviação para o termo em inglês Cascading Style Sheet, traduzindo para o português como folha de estilo em cascata. Neste livro, adotaremos CSS como abreviação e folha de estilo em cascata para o termpo por extenso.
+</blockquote>
+<h2>Abreviações</h2>
+<p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Tá potente!</p>
+<h2>Texto Invertido</h2>
+<p><bdo dir="rtl">Se liga na inversão de texto do pai KKKKKKKKKKKKKKKKKK</bdo></p>
