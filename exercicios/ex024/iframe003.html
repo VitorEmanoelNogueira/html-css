@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe{
+            border: 2px solid black;
+            width: 95vw;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="ronaldo">Primeira Página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="ronaldo">Segunda Página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="ronaldo">Terceira Página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam maiores obcaecati itaque harum dolorem fuga ullam blanditiis eaque deleniti! Facilis sit laborum est impedit ratione. Dignissimos provident veritatis temporibus ullam!</p>
+
+    <iframe srcdoc="<h1>Selecione uma página para exibir no iframe nos links acima</h1> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora sed veritatis tempore modi placeat, neque hic voluptatibus pariatur vitae eos. Quis voluptatibus, veritatis deserunt nobis similique voluptatum id asperiores dicta.</p> <img src='imagens/cursoemvideo.png' alt='imagem da logo do cursoemvideo'>" name="ronaldo">
+        <p>Infelizmente seu navegador não é compatível com este recurso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt laborum molestiae odit reprehenderit optio nulla ullam id sequi ipsa veritatis ducimus maxime vitae, ea iusto aliquam, deserunt explicabo nostrum perferendis!</p>
+</body>
+</html>
