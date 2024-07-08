@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*Todas as demais mídias
+  Não há configurações de pequenas telas e celulares porque o site já é mobile-first*/
+
+  @media print{ /* IMPRESSÃO */
+    body{
+        background-image: url(../imagens/back-print.jpg);
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 992px) { /* TABLET */
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+  }
+
+  @media screen and (min-width:992px) and (max-width: 1200px){ /* DESKTOP */
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+  }
+
+  @media screen and (min-width: 1200px){ /* GRANDES TELAS */
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+  }
+
